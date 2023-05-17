@@ -4,22 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Nosotros - Technology whit Purpose</title>
 </head>
-<body style="margin: 0;">
-    <div id="navbar" style="display: flex; border-bottom: 1px solid gray; padding: 14px 800px; justify-content: space-between;">
-        <div id="navbar-left">
-            <img src="technology-with-purpose.svg">
-        </div>
-        <div id="navbar-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
+<body style="background: none;">
+    <div id="navbar" style="display: flex; border-bottom: 1px solid black; padding: 14px 800px; justify-content: space-between;background-color: white;">
+        <div id="navbar-left"> 
+            <a href="index.html"><img src="img/technology-with-purpose (1).svg" alt="icono fundacion"></a>
+        </div>        
+        <div id="navbar-center" style="display: flex; align-items: center;margin-left: 50px;">
+            <p class="nosotros">Nosotros</p>
             <p>Programas</p>
             <p>Capacitaciones</p>
             <p>Alianzas</p>
             <p>Contacto</p>
-            <button>Sumate +</button>
+            <button class="button_sum1">Sumate +</button>
         </div>
+        <div id="navbar-right" style="display: flex;">
+            <img src="img/iconos2.png" alt="iconos redes sociales">
+        </div>
+    </div>
+    <div id="contact-form">
+        <form style="margin: 30px 300px;" action="">
+            <div style="margin-top: 80px;">
+                <a href="index.html" style="text-decoration: none; color: black;"><p>Home </a>>> Contactanos</p>
+                <h1 style="font-size: 32px;">Contactanos</h1>
+                <p>Si queres conocer más información sobre la Fundación Technology with Purpose, alguno <br>
+                    de sus programas o capacitaciones, por favor complete el formulario a continuación.
+                </p>
+            </div>
+            <div class="form">
+                <input type="text" class="form_text" placeholder="Nombre y Apellido*">
+                <input type="email" class="form_text" placeholder="Email*">
+                <select name="" class="form_option">
+                    <option value="">Tipo de consulta</option>
+                    <option value="">Programas</option>
+                    <option value="">Capacitaciones</option>
+                    <option value="">Quiero donar</option>
+                    <option value="">Otras consultas</option>
+                </select>
+            </div>
+            <div class="form_2">
+                <textarea class="textarea" cols="40" rows="80" placeholder="Consulta/Mensaje"></textarea>
+            </div>
+            <div style="display: flex; justify-content: flex-end; margin-top: 30px;">
+                <button class="button-contacto">Enviar</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>

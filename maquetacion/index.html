@@ -2,46 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">|
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cluster 2 - X Academy</title>
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Fundación Tecnología con Propósito</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="margin: 0;">
-    <div id="navbar" style="display: flex; border-bottom: 1px solid gray; padding: 14px 800px; justify-content: space-between;">
+<body style="margin-top: -20px;">
+    <div id="navbar" style="display: flex; border-bottom: 1px solid black; padding: 14px 800px;background-color: white;">
         <div id="navbar-left">
-            <img src="technology-with-purpose.svg">
-        </div>
-        <div id="navbar-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
+            <img src="img/technology-with-purpose (1).svg" alt="icono fundacion">
+        </div>        
+        <div id="navbar-center" style="display: flex; align-items: center; margin-left: 50px;">
+            <p><a href="nosotros.html" style="text-decoration: none; color: black;">Nosotros</a></p>
             <p>Programas</p>
             <p>Capacitaciones</p>
             <p>Alianzas</p>
             <p>Contacto</p>
-            <button>Sumate +</button>
+            <button class="button_sum1">Sumate +</button>
+        </div>
+        <div id="navbar-right" style="display: flex;">
+            <img src="img/iconos2.png" alt="iconos redes sociales">
         </div>
     </div>
-    <div id="contact-form">
-        <form style="margin: 0 300px;" action="">
-            <div>
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="email" placeholder="Email">
-                <select name="" id="">
-                    <option value="">Programas</option>
-                    <option value="">Capacitaciones</option>
-                </select>
+    <div style="background-color: white; margin-top: -20px; text-align: center;">
+        <div style="height: 300px;">
+            <h1>Somos una Fundación dedicada a mejorar <br>
+                la calidad de vida de las personas y su<br>
+                entorno, a través de la tecnología.
+            </h1>
+            <button class="button_contacto" style="margin-right: 20px;">Contactanos</button>
+            <button class="button_sum2" style="border-color: blueviolet;">Sumate +</button>
+        </div>
+        <div style="background-color: black; height: 400px; position: relative;">
+            <div style="width: 400px;height: 50px; padding: 100px; position: absolute; top: 40%;left: 40%;transform: translate(-60%, -60%);">
+                <h1 style="color: white; text-align: justify;">. Impacto</h1>
+                <p style="color: white; text-align: justify;" >
+                    Buscamos construir alianzas y fortalecer vínculos para <br>
+                    generar una transformación real en la comunidad. <br>
+                    Trabajamos para acercar la tecnología innovadora y <br>
+                    disruptiva del sector privado hacia el sector social.
+                </p>
             </div>
-            <div>
-                <textarea name="" cols="30" rows="10"></textarea>
+            <div style="position: absolute;top: 55%;left: 60%;transform: translate(-45%, -45%);">
+                <img src="img/img_impacto.png" alt="">
             </div>
-            <div>
-                <button>Enviar</button>
-            </div>
-        </form>
+        </div>               
     </div>
+    <div style="opacity: 0; height: 800px"></div>    
+    <div style="background-color: white;">
+        <h1>. Programas</h1>
+        <div class="flex-container" style="background-color: white;">            
+            <div class="flex-items">
+                <img src="img/foto1.png" alt="foto grupo personas" style="width: 600px; height: 400px; border-radius: 0% 15% 15%">
+            </div>
+            <div class="flex-items">
+                <img src="img/titulo_foto1.png" alt="">
+                <p>xAcademy es un programa de formación en tecnología<br>
+                    llevado adelante por la Fundación Tecnología con<br> 
+                    Propósito junto a Santex que busca promover un<br> 
+                    cambio positivo en la comunidad a través de la<br> 
+                    educación en IT, apuntando a lograr la inserción laboral<br> 
+                    de personas en el mundo tecnológico.</p>
+                <button>Más info</button>
+            </div>
+        </div>
+        <div class="flex-container" style="background-color: white;">            
+            <div class="flex-items">
+                <h3>Robótica educativa: la tecnología del futuro</h3>
+                <p>Durante el curso, los alumnos y alumnas a través de la robótica <br>
+                desarrollan la curiosidad, el autodidactismo y las habilidades blandas <br>
+                necesarias para afrontar la revolución tecnológica del siglo XXI.</p>    
+                <button>Más info</button>            
+            </div>
+            <div class="flex-items">
+                <img src="img/foto2.png" alt="foto grupo personas" style="width: 600px; height: 400px; border-radius: 15% 15% 0%">
+            </div>
+        </div>
+        <h1>. Capacitaciones</h1>
+        <div class="flex-container" style="background-color: white;">            
+            <div class="flex-items">
+                <img src="img/foto3.png" alt="foto grupo personas" style="width: 600px; height: 400px; border-radius: 0% 15% 15%">
+            </div>
+            <div class="flex-items">
+                <h3>Estafas virtuales: ¿cómo protegernos?</h3>
+                <p>Los canales de comunicación a través de medios digitales cobraron <br>
+                    gran protagonismo a partir de la pandemia. Al mismo tiempo, se <br>
+                    perfeccionan cada vez más rápido las modalidades de estafas y <br>
+                    fraudes virtuales. En esta capacitación vas a aprender diferentes tips y <br>
+                    consejos útiles para navegar de manera más segura.
+                </p>
+                <button>Más info</button>
+            </div>
+        </div>
+        <div class="flex-container" style="background-color: white;">            
+            <div class="flex-items">
+                <h3>Seguridad informática para infancias</h3>
+                <p>¿Navegamos seguros en internet? La propuesta es una charla para <br>
+                    niños y niñas donde se brindan herramientas de seguridad <br>
+                    y autocuidado digital.
+                </p>    
+                <button>Más info</button>            
+            </div>
+            <div class="flex-items">
+                <img src="img/foto4.png" alt="foto grupo personas" style="width: 600px; height: 400px; border-radius: 15% 15% 0%">
+            </div>
+        </div>
+    </div>
+   
 </body>
 </html>

@@ -1,9 +1,23 @@
 
-
+body{
+    background: url(img/fondo.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
 
 html {
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+}
+
+#navbar-left{
+    display: flex;   
+}
+
+#navbar-right{
+    width: 90px;
+    height: 60px;
 }
 
 p {
@@ -27,9 +41,97 @@ div#navbar-left img {
     width: 8em;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-items{
+    align-items: center;       
+    margin: 50px;
+}
+
+.flex-container-equipo1{
+    display: flex;    
+    justify-content:center;
+}
+
+.flex-container-equipo2{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.form_text{
+    width: 350px;
+    height: 50px;   
+    font-size: 15px;
+}
+
+.form_option{
+    width: 350px;
+    height: 55px;
+    font-size: 15px;
+}
+
+.form{
+    margin-top: 60px; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.form_2{
+    margin-top: 30px; 
+    display: flex; 
+    justify-content: space-between;
+    height: 80px;
+    
+}
+
+.textarea{
+    width: 100% ! important;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}   
+
+.textarea:hover{
+    border-color:blueviolet;
+}
+
+.form_text:hover{
+    border-color: blueviolet;
+}
+
+.form_option:hover{
+    border-color: blueviolet;
+}
+
+.button-contacto:hover  {
+    background-color: black;
+    color: white;
+}
+
+.button_sum1:hover  {
+    background-color: black;
+    color: white;
+}
+
+.button_sum2:hover{    
+    background-color: blueviolet;
+    color: white;
+}
+
+.button_contacto:hover{
+    background-color: black;
+    color: white;
+}
+
+.nosotros:hover{
+    color: blueviolet;
+}
+
 @media (width >= 2500px) {
     html {
-        font-size: 28px;
+        font-size: 28px;       
     }
 }
 
